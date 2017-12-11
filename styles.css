@@ -7,20 +7,20 @@ body{
   position: absolute;
   height:100px;
   background-color: black;
-  width: 100vw;
+  width: 100%;
   height: 75px;
-  opacity: 0;
+  align-items: center;
   display:flex;
   justify-content: space-between;
 }
 .hero-container{
   position: absolute;
-  width: 100vw;
+  width: 100%;
   height: 550px;
   /*border: 2px solid black;*/
 }
 .background-image{
-  
+
   width: 100%;
   height: 100%;
   background-image: url("images/coils3.jpg");
@@ -31,10 +31,67 @@ body{
 
 }
 .top-sellers{
-  width:100vw;
+  width:100%;
   height:500px;
 }
 .about-us{
-  width:100vw;
+  width:100%;
   height:500px;
+}
+.hero-nav{
+  height:50px;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  background-color: black;
+  align-items: center;
+  opacity: .85;
+}
+.hero-nav a{
+  text-decoration-color: white;
+  color: white;
+  font-family: "Krunch";
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.hamburger-menu{
+  background-image: url("images/menu-icon.png");
+  background-size: 100% 100%;
+  background-position:center;
+  width:25px;
+  height:18px;
+  opacity: 1;
+  z-index: 1;
+  margin-left: 20px;
+  filter: invert(100%);
+}
+.search{
+  background-image: url("images/Search-icon.png");
+  background-size: 100% 100%;
+  background-position:center;
+  width:25px;
+  height:25px;
+  opacity: 1;
+  z-index: 1;
+
+  filter: invert(100%);
+}
+.shopping-cart{
+  background-image: url("images/shopping-cart.png");
+  background-size: 100% 100%;
+  background-position:center;
+  width:25px;
+  height:25px;
+  opacity: 1;
+  z-index: 1;
+
+  filter: invert(100%);
+}
+.nav-right-container{
+  width:80px;
+  height:30px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 25px;
 }
