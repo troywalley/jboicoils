@@ -2,6 +2,7 @@ body{
   box-sizing: border-box;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
+  font-family: "Krunch";
 }
 .nav{
   position: absolute;
@@ -23,20 +24,32 @@ body{
 
   width: 100%;
   height: 100%;
-  background-image: url("images/coils3.jpg");
+  background-image: url("images/coils5.jpg");
   background-size: 100% 100%;
   /*background-attachment: fixed;*/
    background-position: center;
    background-repeat: no-repeat;
+   display:flex;
+   justify-content: center;
+   align-items: center;
 
 }
 .top-sellers{
-  width:100%;
-  height:500px;
+  display:block;
+  margin:0 auto;
+  width:auto;
+  height:auto;
+  /*display: flex;*/
+  /*justify-content: space-around;*/
+  /*align-items: center;*/
+  top: 600px;
+  position:absolute;
 }
 .about-us{
   width:100%;
   height:500px;
+  position: absolute;
+  top: calc(600px + 20vw);
 }
 .hero-nav{
   height:50px;
@@ -50,7 +63,7 @@ body{
 .hero-nav a{
   text-decoration-color: white;
   color: white;
-  font-family: "Krunch";
+  /*font-family: "Krunch";*/
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -94,4 +107,43 @@ body{
   justify-content: space-between;
   align-items: center;
   margin-right: 25px;
+}
+.logo{
+  position: absolute;
+  width:300px;
+  height:300px;
+  background-image: url("images/logo_edited-1.png");
+  background-size: cover;
+  z-index: 1;
+  opacity:.6;
+    filter: invert(100%);
+}
+.top-seller{
+  display:inline-block;
+  margin-top: 40px;
+  margin-left: 75px;
+  width:200px;
+  height:200px;
+  border-radius:100%;
+  border: 2px solid rgba(255,255,255,0.85);
+  background-color: rgba(255,255,255,0.85);
+  min-width: 200px;
+  background-position: center;
+  background-size: cover;
+}
+.top-seller1{
+  background-image: url("images/coils.jpg");
+  margin-left:75px;
+}
+.top-seller2{
+  background-image: url("images/coils2.jpg")
+}
+.top-seller3{
+  background-image: url("images/coils3.jpg")
+}
+.top-seller4{
+  background-image: url("images/coils4.jpg")
+}
+.top-seller5{
+  background-image: url("images/coils5.jpg")
 }
